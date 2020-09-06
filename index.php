@@ -3,7 +3,6 @@
 $server_key = "SB-Mid-server-ONb9SmaPHKbT3nFF6VJtEnql";
 
 $is_production = false;
-$is_production = true;
 $api_url = $is_production? 
 		'https://app.midtrans.com/snap/v1/transactions' : 
 		'https://app.sanbox.midtrans.com/snap/v1/transactions';
